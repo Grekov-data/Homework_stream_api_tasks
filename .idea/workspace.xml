@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c57de52-c78d-4c4d-a396-3fa575a3591c" name="Default Changelist" comment="">
+    <list default="true" id="5c57de52-c78d-4c4d-a396-3fa575a3591c" name="Default Changelist" comment="hm">
+      <change afterPath="$PROJECT_DIR$/src/Task4/TV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task4/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Program.java" afterDir="false" />
     </list>
@@ -29,13 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Program (1)">
+}</component>
+  <component name="RunManager" selected="Application.Task4.Program">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -86,8 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task4.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.Program" />
+      <module name="practise_211" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task4.Program" />
         <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.Program (2)" />
         <item itemvalue="Application.Program" />
@@ -104,6 +119,14 @@
       <updated>1671810069360</updated>
       <workItem from="1671810074769" duration="7152000" />
     </task>
+    <task id="LOCAL-00001" summary="hm">
+      <created>1672816463258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672816463258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,5 +147,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="hm" />
+    <option name="LAST_COMMIT_MESSAGE" value="hm" />
   </component>
 </project>
