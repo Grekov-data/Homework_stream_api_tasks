@@ -19,11 +19,28 @@ package Task4;
 ■ Показать все телевизоры, отсортированные по диагонали по убыванию.
  */
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        //Здесь ваша реализация ДЗ
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+
+        List <TV> tv = new ArrayList<>(List.of(
+                new TV("The One 58", 2020, 63000, 146, "Philips"),
+                new TV("The Two 62", 2021, 71000, 157, "Philips"),
+                new TV("32 RMT101", 2019, 54000, 98, "Realme"),
+                new TV("32A4BG", 2019, 55000, 146, "Hisense"),
+                new TV("TlV-120vd-p", 2013, 20000, 50, "Asus"),
+                new TV("T54-sm", 2022, 112000, 254, "Samsung")
+        ));
+
+        System.out.println("Все телевизоры");
+        tv.forEach(System.out::println);
+
+        System.out.print("Введите требуемую диагональ: ");
+        int diagonal = scanner.nextInt();
+        System.out.printf("Телевизоры с диагональю %d:", diagonal);
     }
 }
